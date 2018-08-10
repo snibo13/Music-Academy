@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "AMF Academy",
+    "description": "Music education app created by Ashley's Music Foundation, a 401(c) non-profit organization",
+    "slug": "AMF-academy",
+    "privacy": "unlisted",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor":"#ccc",
+    "icon": "./assets/icons/app-icon.png",
+    "splash": {
+      "icon": "./assets/icons/loading-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ccc"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml",
+        "png"
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier":"com.AMF.MusicAcademy",
+      "supportsTablet": false,
+      "buildNumber": "1.0.0",
+    },
+    "android": {
+      "package":"com.AMF.MusicAcademy",
+      "permissions": [],
+    },
+    "androidStatusBar": {
+      "barStyle":"light-content",
+    },
+  }
+}
